@@ -1,5 +1,5 @@
-const { Schema, model } = require('mongoose');
-const dateFormat = require('../utils/dateFormat');
+const { Schema, model, Types } = require('mongoose');
+
 
 let validateEmail = function(email) {
     let re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -26,12 +26,12 @@ const UserSchema = new Schema({
             ref: 'thought',
         },
     ],
-    friends: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: "User"
-        },
-    ],
+    // friends: [
+    //     {
+    //         type: Schema.Types.ObjectId,
+    //         ref: "User"
+    //     },
+    // ],
 },
 {
     toJSON: {
@@ -42,15 +42,15 @@ const UserSchema = new Schema({
 );
 
 // get friend count of user 
-// UserSchema.virtual('friendCount').get(function () {
-//     return this.friendCount.length;
-// });
-UserSchema.virtual('thought').get(function() {
-    return this.thought.reduce(
-      (total, thought) => total + thought.replies.length + 1,
-      0
-    );
-  });
+UserSchema.virtual('friendCount').get(function () {
+    return this.friendCount.length;
+});
+// UserSchema.virtual('thought').get(function() {
+//     return this.thought.reduce(
+//       (total, thought) => total + thought.replies.length + 1,
+//       0
+//     );
+//   });
 
 const User = model("User", UserSchema);
 
