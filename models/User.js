@@ -5,12 +5,12 @@ const UserSchema = new Schema({
     username: {
         type: String,
         unique: true,
-        required: 'Username is required',
+        required: true,
         trimmed: true 
     },
     email: {
         type: String,
-        required: 'email is required',
+        required: true,
         unique: true,
         validate: [validateEmail, 'Please use a valid email address'],
         match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please use a valid email address']
