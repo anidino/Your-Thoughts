@@ -58,6 +58,9 @@ const userController = {
         .then((dbuserData) => res.json(dbuserData))
         .catch((err) => res.json(err));
     },
+
+    
+
   };
   
 

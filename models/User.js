@@ -42,9 +42,15 @@ const UserSchema = new Schema({
 );
 
 // get friend count of user 
-UserSchema.virtual('friendCount').get(function () {
-    return this.comments.length;
-});
+// UserSchema.virtual('friendCount').get(function () {
+//     return this.friendCount.length;
+// });
+UserSchema.virtual('thought').get(function() {
+    return this.thought.reduce(
+      (total, thought) => total + thought.replies.length + 1,
+      0
+    );
+  });
 
 const User = model("User", UserSchema);
 
