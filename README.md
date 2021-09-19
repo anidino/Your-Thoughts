@@ -22,11 +22,14 @@ This is a back end, social network web application built with Node, Express, Mon
 
 
 Video Walkthrough Part I - All User and Thoughts with Reactions 
-[https://drive.google.com/file/d/10P7ykJeE61UAIRk9wiyR7RWxufQksoJ5/view](Demo-Part-One)
+
+[Demo-Part-One](https://drive.google.com/file/d/10P7ykJeE61UAIRk9wiyR7RWxufQksoJ5/view)
 
 Video Walkthrough Part II - Add and Delete a Friend 
 
-[https://drive.google.com/file/d/18-e1bM7RiJpvvTPx9MTcHLL5SXGcw6Ni/view](Demo-Part-Two)
+[Demo-Part-Two](https://drive.google.com/file/d/18-e1bM7RiJpvvTPx9MTcHLL5SXGcw6Ni/view)
+
+## Screenshots of Application in Use
 
 ## Resources Used 
 - Trilogy Module 18 NoSQL
