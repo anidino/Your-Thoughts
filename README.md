@@ -26,10 +26,17 @@ Video Walkthrough Part I - All User and Thoughts with Reactions
 [Demo-Part-One](https://drive.google.com/file/d/10P7ykJeE61UAIRk9wiyR7RWxufQksoJ5/view)
 
 Video Walkthrough Part II - Add and Delete a Friend 
-
 [Demo-Part-Two](https://drive.google.com/file/d/18-e1bM7RiJpvvTPx9MTcHLL5SXGcw6Ni/view)
 
+
 ## Screenshots of Application in Use
+![yourThoughtsSS4thoughts](https://user-images.githubusercontent.com/84213096/133939687-7dbdcf5d-bc3a-4253-893b-a061e9452128.jpg)
+![yourThoughtsSS2](https://user-images.githubusercontent.com/84213096/133939695-9d23a873-afb8-4b89-bcb2-83dc703789fe.jpg)
+![yourThoughtsSS3](https://user-images.githubusercontent.com/84213096/133939647-0cad8f54-6f27-4c6a-9b38-c758372978fc.jpg)
+
+
+
 
 ## Resources Used 
 - Trilogy Module 18 NoSQL
+- [Mongoose Docs](https://mongoosejs.com/docs/guide.html)
