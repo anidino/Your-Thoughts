@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use(require("./routes"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/pizza-hunt", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Your-Thoughts", {
   // useFindAndModify: false,  THIS DOES NOT WORK BUT IS IN THE MODULES 
   useNewUrlParser: true,
   useUnifiedTopology: true,
