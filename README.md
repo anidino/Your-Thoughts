@@ -26,6 +26,7 @@ Video Walkthrough Part I - All User and Thoughts with Reactions
 [Demo-Part-One](https://drive.google.com/file/d/10P7ykJeE61UAIRk9wiyR7RWxufQksoJ5/view)
 
 Video Walkthrough Part II - Add and Delete a Friend 
+
 [Demo-Part-Two](https://drive.google.com/file/d/18-e1bM7RiJpvvTPx9MTcHLL5SXGcw6Ni/view)
 
 
